@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -365,15 +364,12 @@ function isMobile() {
  
  // Stream Information
 const channelstreamInfo = {
-   streamUrl: "https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/arena1_n/default/index.mpd",
+   streamUrl: "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/lsdasbvglv/out/v1/bb548a3626cd4708afbb94a58d71dce9/cenc.mpd",
 	
-clearKeys: {
-'9002ec8c3dbc55c5bccdcd6871d80fd0': '7099325123bae7810db508727bb0bc7d',
-                     'c43c83acda60593d8e3607efd5010d7d': '526f4a760ef52ab85056fbc10ea27584',
-                    '712090aae2065c21951b170bc3002330':'a97774e4175b80205c3cf104e9574208'
-},
 
-    
+    clearKeys: {
+        "4e993aa8c1f295f8b94e8e9e6f6d0bfe": "86a1ed6e96caab8eb1009fe530d2cf4f"
+    },
 	
 	
     authBearer: "",
@@ -442,7 +438,7 @@ async function initializePlayer() {
 
 
    // Video settings
-videoElement.muted = false; // Default to muted
+videoElement.muted = true; // Default to muted
 videoElement.autoplay = true;
 videoElement.controls = false;
 
